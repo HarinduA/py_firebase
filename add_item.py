@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Path to your service account key JSON file
-cred = credentials.Certificate('/Users/harinduadhikari/Documents/pythin_firebase/itemmy-firebase-adminsdk-lkzr9-9b824cfecd.json')
+
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
